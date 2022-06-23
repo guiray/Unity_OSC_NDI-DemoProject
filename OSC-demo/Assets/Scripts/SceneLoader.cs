@@ -7,9 +7,12 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public int sceneIndex;
+    private int currentSceneIndex;
     void Start()
     {
         sceneIndex = 1;
+        currentSceneIndex = 1;
+
         SceneManager.LoadScene(sceneIndex, LoadSceneMode.Additive);
     }
 
@@ -17,8 +20,15 @@ public class SceneLoader : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            sceneIndex++;
-            LoadNextScene();
+            //sceneIndex++;
+            //LoadNextScene();
+        }
+
+        if (sceneIndex != currentSceneIndex)
+        {
+            SceneManager.UnloadScene(currentSceneIndex);
+            SceneManager.LoadScene(sceneIndex, LoadSceneMode.Additive);
+            currentSceneIndex = sceneIndex;
         }
     }
 
