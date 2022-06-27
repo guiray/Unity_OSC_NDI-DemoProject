@@ -22,12 +22,11 @@ public class SceneLoader : MonoBehaviour
 
     void Update()
     {
-        /*if (Input.GetMouseButtonDown(0))
-        {
-            //sceneIndex++;
-            //LoadNextScene();
-        }*/
+        
+    }
 
+    private void LoadScene()
+    {
         if (sceneIndex != currentSceneIndex)
         {
             SceneManager.UnloadScene(currentSceneIndex);
@@ -40,11 +39,8 @@ public class SceneLoader : MonoBehaviour
     {
         Debug.LogFormat("Received: {0}", message);
         sceneIndex = message.Values[0].IntValue;
+
+        LoadScene();
     }
 
-    /*private void LoadNextScene()
-    {
-        SceneManager.UnloadScene(sceneIndex - 1);
-        SceneManager.LoadScene(sceneIndex, LoadSceneMode.Additive);
-    }*/
 }
