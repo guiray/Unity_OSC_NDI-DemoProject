@@ -20,11 +20,6 @@ public class SceneLoader : MonoBehaviour
         oscReceiver.Bind("/sceneIndex", ReceiveMessage);
     }
 
-    void Update()
-    {
-        
-    }
-
     private void LoadScene()
     {
         if (sceneIndex != currentSceneIndex)
