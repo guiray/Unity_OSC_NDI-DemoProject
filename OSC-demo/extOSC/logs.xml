@@ -1,0 +1,11 @@
+<root>
+  <message info="Receiver: 7001. From: 127.0.0.1:54765" type="Received" timestamp="[12:29:45]">
+    <packet>I2J1bmRsZQAAAAAAAAAAAAAAABQvc2NlbmVJbmRleAAsaQAAAAAAAw==</packet>
+  </message>
+  <message info="Receiver: 7001. From: 127.0.0.1:54765" type="Received" timestamp="[12:29:45]">
+    <packet>I2J1bmRsZQAAAAAAAAAAAAAAABQvc2NlbmVJbmRleAAsaQAAAAAAAg==</packet>
+  </message>
+  <message info="Receiver: 7001. From: 127.0.0.1:54765" type="Received" timestamp="[12:29:45]">
+    <packet>I2J1bmRsZQAAAAAAAAAAAAAAABQvc2NlbmVJbmRleAAsaQAAAAAAAQ==</packet>
+  </message>
+</root>

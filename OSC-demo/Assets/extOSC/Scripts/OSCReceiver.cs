@@ -38,7 +38,12 @@ namespace extOSC
 			}
 		}
 
-		public string LocalHost
+        public void Bind(string v, object receiveMessage)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string LocalHost
 		{
 			get => GetLocalHost();
 			set
