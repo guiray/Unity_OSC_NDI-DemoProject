@@ -153,6 +153,24 @@
       },
       "url": "https://registry.npmjs.com"
     },
+    "jp.keijiro.osc-jack": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.osc-jack.visualscripting": {
+      "version": "2.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.visualscripting": "1.5.2",
+        "jp.keijiro.osc-jack": "2.0.0"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
