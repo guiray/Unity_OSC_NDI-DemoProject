@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xAddress: /scale
-  Reveiver: {fileID: 119978499}
+  reveiver: {fileID: 119978499}
 --- !u!1 &119978498
 GameObject:
   m_ObjectHideFlags: 0

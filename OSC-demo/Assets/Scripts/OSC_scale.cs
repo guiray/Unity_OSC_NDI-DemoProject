@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using extOSC;
 
-public class OSC_position : MonoBehaviour
+public class OSC_scale : MonoBehaviour
 { 
 
     public string xAddress = "/address";
-    public OSCReceiver Reveiver;
+    public OSCReceiver reveiver;
 
     private float cubeScale; 
 
     void Start()
     {
-        Reveiver.Bind(xAddress, ReceiveMessage);
+        reveiver.Bind(xAddress, ReceiveMessage);
     }
 
     private void ReceiveMessage(OSCMessage message)
