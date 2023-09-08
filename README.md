@@ -1,5 +1,6 @@
 # Unity OSC and NDI demo project
-This is a demo project to demonstrate the use of OSC and NDI inside of Unity3D, with TouchDesigner
+This is a demo project to demonstrate the use of OSC and NDI inside of Unity3D, with TouchDesigner.  
+The "OSC-demo" folder contains the unity project with 3 scenes, one for each package to demonstrate their use. The "TD" folder contains the TouchDesigner patch that is used to send and receive OSC and NDI data.
 
 ## packages
 extOSC : https://github.com/iam1337/extOSC  
