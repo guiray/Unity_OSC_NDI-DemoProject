@@ -1,5 +1,5 @@
 # Unity OSC and NDI demo project
-This is a demo project to demonstrate the use of OSC protocol and NDI protocol inside of Unity3D, with TouchDesigner
+This is a demo project to demonstrate the use of OSC and NDI inside of Unity3D, with TouchDesigner
 
 ## packages
 extOSC : https://github.com/iam1337/extOSC  
