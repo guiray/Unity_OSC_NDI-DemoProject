@@ -8,8 +8,8 @@ KlakNDI : https://github.com/keijiro/KlakNDI
 OSCJackVS : https://github.com/keijiro/OscJackVS
 
 ## Software versions
-Unity : 2022.3.37f1  
-TouchDesigner : 2023.11880
+Unity : 6000.1.5f1  
+TouchDesigner : 2023.12230
 
 ## Ressources
 Video tutorial on OSC Jack VS : https://www.youtube.com/watch?v=aGwpV28EF94
